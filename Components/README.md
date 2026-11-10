@@ -13,7 +13,7 @@ Function:
 - Controls the servo motor and motor driver.
 - Executes the obstacle avoidance algorithm.
 
-Image: "Arduino_Uno.jpg"
+
 
 ---
 
@@ -28,7 +28,7 @@ Function:
 - Detects obstacles in the robot's path.
 - Provides distance data to the Arduino Uno.
 
-Image: "Ultrasonic_Sensor.jpg"
+
 
 ---
 
@@ -43,7 +43,7 @@ Function:
 - Scans the left, right and front directions.
 - Helps determine a suitable direction for movement.
 
-Image: "Servo_Motor.jpg"
+
 
 ---
 
@@ -58,7 +58,7 @@ Function:
 - Enables left and right turning.
 - Receives control signals from the Arduino Uno.
 
-Image: "L298N_Motor_Driver.jpg"
+
 
 ---
 
@@ -73,7 +73,6 @@ Function:
 - Enable forward and backward movement.
 - Allow turning through independent motor control.
 
-Image: "DC_Motors.jpg"
 
 ---
 
@@ -88,7 +87,6 @@ Function:
 - Provides the required voltage and current.
 - Enables autonomous operation without a wired power supply.
 
-Image: "Battery_Pack.jpg"
 
 ---
 
@@ -102,7 +100,7 @@ Function:
 - Turns the robot ON and OFF.
 - Controls the electrical connection between the power source and circuit.
 
-Image: "Switch.jpg"
+
 
 ---
 
