@@ -64,9 +64,7 @@ The following hardware components are used in the development of this project.
 
 The Arduino Uno acts as the main processing unit of the robot. It receives distance measurements from the ultrasonic sensor, processes the information and controls the motors through the motor driver.
 
-![Arduino Uno](../Components/Arduino_Uno.jpg)
 
-*Figure 2: Arduino Uno Microcontroller.*
 
 ## 4.2 Ultrasonic Sensor (HC-SR04)
 
@@ -74,49 +72,34 @@ The HC-SR04 ultrasonic sensor detects obstacles by transmitting ultrasonic waves
 
 It provides distance information to the Arduino for obstacle detection.
 
-![Ultrasonic Sensor](../Components/Ultrasonic_Sensor.jpg)
 
-*Figure 3: HC-SR04 Ultrasonic Sensor.*
 
 ## 4.3 Servo Motor
 
 The servo motor rotates the ultrasonic sensor to different angles, allowing the robot to scan its surroundings and identify a suitable direction for movement.
 
-![Servo Motor](../Components/Servo_Motor.jpg)
 
-*Figure 4: Servo Motor.*
 
 ## 4.4 L298N Motor Driver Module
 
 The L298N motor driver controls the direction and speed of the DC motors based on signals received from the Arduino Uno.
 
-![L298N Motor Driver](../Components/L298N_Motor_Driver.jpg)
 
-*Figure 5: L298N Motor Driver Module.*
 
 ## 4.5 DC Motors
 
 DC geared motors provide mechanical movement to the robot by converting electrical energy into rotational motion.
 
-![DC Motors](../Components/DC_Motors.jpg)
-
-*Figure 6: DC Geared Motors.*
 
 ## 4.6 Battery Pack
 
 The battery pack supplies electrical energy to the robot's electronic and motor systems.
 
-![Battery Pack](../Components/Battery_Pack.jpg)
-
-*Figure 7: Battery Pack.*
 
 ## 4.7 Switch
 
 The switch is used to control the power supply and turn the robot ON or OFF.
 
-![Switch](../Components/Switch.jpg)
-
-*Figure 8: Power Switch.*
 
 ---
 
@@ -152,9 +135,8 @@ The circuit connects the Arduino Uno, ultrasonic sensor, servo motor, L298N moto
 
 The Arduino acts as the central controller and coordinates the operation of the connected components.
 
+<img width="1105" height="661" alt="Circuit Digram" src="https://github.com/user-attachments/assets/e22f9322-467c-4792-ac77-b3ed8f82909c" />
 
-
-![Circuit Diagram](../Circuit_Diagram/circuit_diagram.png)
 
 *Figure 10: Circuit Diagram of the Autonomous Obstacle Avoiding Robot.*
 
@@ -179,10 +161,6 @@ The general working sequence is as follows:
 9. The process repeats continuously.
 
 
-
-![Obstacle Detection](../Images/obstacle_detection.jpg)
-
-*Figure 11: Obstacle Detection Demonstration.*
 
 ---
 
@@ -212,16 +190,6 @@ The general working sequence is as follows:
 
 ---
 
-# 10. Flowchart
-
-
-
-![Flowchart](../Images/flowchart.png)
-
-*Figure 12: Algorithm Flowchart.*
-
----
-
 # 11. Source Code
 
 The complete Arduino source code is available in the Code directory of this repository.
@@ -244,17 +212,6 @@ The hardware components are assembled on the robot chassis and interconnected ac
 The Arduino Uno is programmed with the obstacle avoidance algorithm. After completing the connections and uploading the program, the robot is tested under different obstacle conditions.
 
 
-
-![Robot Assembly](../Images/robot_assembly.jpg)
-
-*Figure 13: Hardware Assembly.*
-
-
-
-![Robot Working](../Images/robot_working.jpg)
-
-*Figure 14: Robot During Testing.*
-
 ---
 
 # 13. Testing and Observations
@@ -269,11 +226,6 @@ The robot should be tested under different environmental and obstacle conditions
 | 4 | Obstacle on right | Select a suitable direction | [Update] |
 | 5 | Obstacles in multiple directions | Select the available clear path | [Update] |
 
-
-
-![Testing Results](../Images/testing_results.jpg)
-
-*Figure 15: Experimental Testing.*
 
 ---
 
