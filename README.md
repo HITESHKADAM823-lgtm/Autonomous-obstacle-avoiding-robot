@@ -72,3 +72,27 @@ Robotics and Automation Engineering
 - Add better sensor calibration.
 - Optimize battery efficiency.
 - Improve overall navigation performance.
+
+  ## Working Principle
+
+The Autonomous Obstacle Avoiding Robot uses an ultrasonic sensor to detect obstacles and automatically changes its direction to avoid collisions.
+
+### Operating Steps
+
+1. The ultrasonic sensor continuously measures the distance to nearby objects.
+2. The microcontroller processes the distance readings.
+3. If an obstacle is detected within the predefined threshold, the controller stops the motors.
+4. The robot changes direction to find a clear path.
+5. Normal movement resumes when the path is clear.
+
+### Main Components Involved
+
+- Arduino Uno: Main control unit.
+- Ultrasonic Sensor: Obstacle detection.
+- Motor Driver: Controls motor movement.
+- DC Motors: Provide movement.
+- Battery: Supplies electrical power.
+
+### Objective
+
+To develop a robot capable of detecting obstacles and navigating autonomously with minimal human intervention.
