@@ -59,4 +59,16 @@ Robotics and Automation Engineering
 
 ## License
 
-This project is currently under development.
+## Development Updates
+
+### Current Development Focus
+- Improving ultrasonic sensor accuracy.
+- Optimizing obstacle detection logic.
+- Testing motor response during obstacle avoidance.
+- Improving robot navigation reliability.
+
+### Future Improvements
+- Implement smoother turning mechanisms.
+- Add better sensor calibration.
+- Optimize battery efficiency.
+- Improve overall navigation performance.
